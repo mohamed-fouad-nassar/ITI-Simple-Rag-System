@@ -1,0 +1,19 @@
+Artificial Intelligence (AI) is a field of computer science focused on building systems that can perform tasks that normally require human intelligence. These tasks include learning from data, recognizing patterns, understanding language, and making decisions.
+
+Machine Learning is a subfield of Artificial Intelligence. Instead of being explicitly programmed with rules, machine learning systems learn patterns directly from data. The more data they process, the better they can improve their predictions or decisions.
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled datasets to train models, meaning the correct answers are provided during training. Unsupervised learning works with unlabeled data and attempts to discover hidden patterns or structures. Reinforcement learning trains agents to make sequences of decisions by rewarding good actions and penalizing bad ones.
+
+Deep Learning is a specialized area of machine learning that uses neural networks with many layers. These neural networks are inspired by the structure of the human brain. Deep learning has been particularly successful in fields like image recognition, speech recognition, and natural language processing.
+
+Large Language Models (LLMs) are a type of deep learning model designed to understand and generate human language. They are trained on massive datasets containing books, websites, and articles. Examples of tasks LLMs can perform include answering questions, summarizing text, translating languages, and writing code.
+
+Retrieval-Augmented Generation (RAG) is a technique used to improve the accuracy of language models. Instead of relying only on what the model learned during training, RAG systems retrieve relevant information from external documents or databases before generating an answer. This helps the model produce more accurate and up-to-date responses.
+
+A typical RAG system contains three main components: a document store, an embedding model, and a language model. First, documents are converted into vector embeddings and stored in a vector database. When a user asks a question, the system converts the question into an embedding and searches the database for the most similar pieces of text. These retrieved documents are then given to the language model as context for generating the final answer.
+
+Vector databases such as Chroma, Pinecone, and Weaviate are commonly used to store embeddings. They allow efficient similarity searches over large collections of documents.
+
+RAG systems are widely used in applications such as document search, customer support assistants, research tools, and knowledge bases. They are especially useful when working with private documents that were not included in the training data of the language model.
+
+created for RAG demo by Mohamed

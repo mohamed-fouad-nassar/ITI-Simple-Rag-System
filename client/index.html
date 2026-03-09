@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RAG Assistant</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <header>
+        <h1>📚 RAG Assistant</h1>
+        <p>Ask questions about your documents</p>
+      </header>
+
+      <div id="chat" class="chat"></div>
+
+      <div class="input-area">
+        <input
+          id="question"
+          placeholder="Ask a question..."
+          onkeydown="if (event.key === 'Enter') ask();"
+        />
+
+        <button onclick="ask()">Send</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
